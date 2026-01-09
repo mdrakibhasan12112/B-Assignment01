@@ -12,7 +12,7 @@
 
 .container {
  width: 85%;
- max-width: 1600px;
+ max-width: 1360px;
  margin: 0 auto;
 }
 
@@ -168,4 +168,47 @@ justify-content: center;
   background: rgba(255, 255, 255, 1);
 }
 
-
+.brain-container{
+   width: 85%;
+   max-width: 1360px;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   margin: 120px auto;
+   gap:60px;
+   justify-content: space-between;
+}
+.brain-container .brain-image{
+ width: 600px;
+ height: 600px;
+ border-radius: 12px;
+}
+.brain-container .brain-content .green{
+font-size: 16px;
+ font-weight: 500;
+ line-height: 20px;
+ text-align: left;
+ color:#30B868;
+ width: 700px;
+}
+ .brain-container .brain-content h2{
+font-size: 48px;
+font-weight: bold;
+color: #001931;
+width: 700px;
+text-align: left;
+margin-top: 16px;
+margin-bottom: 16px;
+ }
+  .brain-container .brain-content p{
+   font-size: 16px;
+   text-align: left;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+  }
+    .brain-container .brain-content .tik-icon li{
+     text-decoration: none;
+     text-align: left;
+    }
